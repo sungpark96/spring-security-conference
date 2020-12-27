@@ -8,12 +8,12 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @SpringBootTest
 class ConferenceApplicationTests {
 
-	@Autowired
-	PasswordEncoder encoder;
-
-	@Test
-	void contextLoads() {
-
-	}
+//	@Autowired
+//	PasswordEncoder encoder;
+//
+//	@Test
+//	void contextLoads() {
+//
+//	}
 
 }
