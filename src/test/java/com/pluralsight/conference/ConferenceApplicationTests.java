@@ -9,14 +9,12 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 class ConferenceApplicationTests {
 
 
+	@Autowired
+	private PasswordEncoder encoder;
 
-
-//	@Autowired
-//	PasswordEncoder encoder;
-//
-//	@Test
-//	void contextLoads() {
-//
-//	}
+	@Test
+	void contextLoads() {
+        System.out.println(encoder.encode("pass"));
+	}
 
 }
