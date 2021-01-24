@@ -1,6 +1,6 @@
 package com.pluralsight.conference;
 
-public class mongoDBConfiguration {
+public class mongoDBConfig {
 
 //    MongoClient mongoClient = new MongoClient("localhost, 27017");
 //
